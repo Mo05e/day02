@@ -6,7 +6,7 @@
 /*   By: mumiller <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/19 11:33:17 by mumiller          #+#    #+#             */
-/*   Updated: 2020/06/19 11:33:28 by mumiller         ###   ########.fr       */
+/*   Updated: 2020/06/21 09:50:53 by mumiller         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,12 +17,10 @@ void ft_print_alphabet(void);
 
 int main()
 {
-	
-	ft_print_alphabet();
-   
-    return 0;
-}
 
+	ft_print_alphabet();
+		return 0;
+}
 int ft_putchar(char n)
 {
 	write(1,&n,1);
